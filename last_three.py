@@ -1,10 +1,8 @@
 import requests
 from bs4 import BeautifulSoup
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
-API_KEY = os.environ.get("API_KEY")
 
 def get_last_three_from_lastfm_page(user):
     url = f"https://www.last.fm/user/{user}"

@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from currently_playing import get_last_three_from_lastfm_page
+from last_three import get_last_three_from_lastfm_page
 import os
 from fastapi import FastAPI, Path, HTTPException
 from pydantic import BaseModel, EmailStr
